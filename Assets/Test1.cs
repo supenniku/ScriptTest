@@ -16,7 +16,12 @@ public class Test1 : MonoBehaviour {
         points [3] = 10;
         points [4] = 70;
 
-        // 配列の要素をすべて表示する
+        //配列の要素を表示する
+        for (int i = 0; i < 5; i++) {
+            Debug.Log(points[i]);
+        }
+
+        // 配列の要素を逆に表示する
         for (int i = 4; i > -1; i--) {
             Debug.Log (points [i]);
         }
